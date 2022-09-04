@@ -10,5 +10,5 @@ class TestLeapYear(unittest.TestCase):
         self.assertEqual(result,"Year cannot be negative")  # If the year is negative it cannot be taken as Input 
 
 
-    if __name__=="__main__":
+    if __name__=='__main__':
         unittest.main()
