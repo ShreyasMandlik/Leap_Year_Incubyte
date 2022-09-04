@@ -16,5 +16,5 @@ class TestLeapYear(unittest.TestCase):
         self.assertEqual(result1,True)             # If the year is divisible by 400 then it is leap year
 
 
-if __name__=='__main__':
-    unittest.main()
+    if __name__=='__main__':
+        unittest.main()
